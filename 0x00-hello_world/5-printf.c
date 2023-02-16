@@ -1,8 +1,8 @@
 #include<stdio.h>
-/*
+/**
  * main - A programe prints a line with printf function
  *
- * return:(0)(Success)
+ * return: Always 0(Success)
  */
 int main(void)
 {
