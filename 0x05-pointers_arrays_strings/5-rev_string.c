@@ -16,7 +16,7 @@ void rev_string(char *s)
 	{
 		e++;
 	}
-	g = a - 1;
+	g = e - 1;
 	for (f = 0; g >= 0 && f < g; g--, f++)
 	{
 		temp = s[f];
