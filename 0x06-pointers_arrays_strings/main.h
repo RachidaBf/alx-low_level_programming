@@ -11,6 +11,7 @@ char *string_toupper(char *);
 char *leet(char *);
 char *_strncat(char *dest, char *src, int n);
 char *cap_string(char *);
-
+int _putchar(char c);
+void print_number(int n);
 
 #endif
