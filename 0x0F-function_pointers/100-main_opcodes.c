@@ -11,7 +11,7 @@
 int main(int argc, char *argv[])
 {
 	char *opc = (char *) main;
-	int i, nbytes;
+	int j, nbytes;
 
 	if (argc != 2)
 	{
@@ -27,10 +27,10 @@ int main(int argc, char *argv[])
 		exit(2);
 	}
 
-	for (i = 0; i < nbytes; i++)
+	for (j = 0; j < nbytes; j++)
 	{
-		printf("%02x", opc[i] & 0xFF);
-		if (i != nbytes - 1)
+		printf("%02x", opc[j] & 0xFF);
+		if (j != nbytes - 1)
 			printf(" ");
 	}
 
