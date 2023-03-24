@@ -1,4 +1,5 @@
 Variadic functions:
+( va_start, va_list, va_arg and va_end MACROS)
 
   *sum_them_all: Function that return the sum of all its parameters.
 
