@@ -4,7 +4,7 @@
 #include "lists.h"
 
 /**
- * print_list - check the code for Holberton School students.
+ * print_listint -> prints all the elements of a listint_t list.
  * @h: name of the list
  * Return: the number of nodes.
  */
