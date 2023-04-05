@@ -3,20 +3,19 @@
 
 /**
  * free_listint2 - function that frees the listint_t list
- * @head:a double pointer of the list
+ * @head: a double pointer of the list
  */
+
 void free_listint2(listint_t **head)
 {
+	listint_t *temp;
+
 	if (head == NULL)
 		return;
-	listint_t *current = *head;
-
-	while (current != NULL)
+	while (*head != NULL)
 	{
-		listint_t *temp = current;
-
-		current = current->next;
-		free(temp);
+		temp = (*head)->next;
+		free(*head);
+		*head = temp;
 	}
-	*head = NULL;
 }
